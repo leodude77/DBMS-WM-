@@ -24,10 +24,6 @@ body, html {
 
 <div class="topnav" id="myTopnav">
   <a href="index.php" class="active">Home</a>
-  <a href="index2.php" >Items</a>
-  <a href="employees.php">Employees</a>
-  <a href="delevaries.php">Deliveries</a>
-  <a href="checkout.php">Checkout</a>
   <?php
   include 'lappearordis.php';
  ?>
