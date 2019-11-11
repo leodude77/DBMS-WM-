@@ -33,6 +33,23 @@ body, html {
  ?>
  </div>
 
+ <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="2.png">
+          <h3>One System for the Entire Company</h3>
+        </div>
+        <div class="box">
+          <img src="1.png">
+          <h3> Detailed Inventory Visibility</h3>
+        </div>
+        <div class="box">
+          <img src="3.png">
+          <h3>Real Time Delivery and Checkout System</h3>
+        </div>
+      </div>
+    </section>
+
 <?php
   if (isset($_GET['error'])) {
         echo '<h1 style="font-size:30px;padding:0px;margin:0px;color:red;" align="center">'.$_GET['error'].'</h1>';
